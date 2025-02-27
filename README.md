@@ -2,7 +2,7 @@
 
 ## Objective
 
-This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and Shuffle to simulate a real-world Security Operations Center (SOC) environment. The goal is to provide hands-on experience with Extended Detection and Response (XDR), case management, and SOAR (Security Orchestration, Automation, and Response) capabilities.
+This project aims to build a SOC Automation Lab that integrates Wazuh, The Hive, and Shuffle to simulate a real-world Security Operations Center (SOC) environment. The goal is to provide hands-on experience with Extended Detection and Response (XDR), case management, and SOAR (Security Orchestration, Automation, and Response) capabilities.
 
 ### Skills Learned
 
@@ -11,7 +11,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 - Using The Hive for organizing and tracking security incidents.
 - Implementing Shuffle to automate security processes and improve efficiency.
 - Monitoring network activity and analyzing logs to detect potential security threats.
-- 
+  
 ### Tools Used
 
 - VirtualBox: Virtualization platform for creating and managing virtual machines.
@@ -53,7 +53,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br> <!-- Adds extra space between sections -->
 
-*Ref 6: Run following commands below*
+*Ref 6: Run the following commands below*
 
 <div style="display: flex; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/4384fbfe-0098-4cda-9666-e3843fe80204" alt="Shared Directory Configuration Step 1" width="300" height="200">
@@ -70,7 +70,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br> <!-- Adds extra space between sections -->
 
-*Ref 8: Change Host name to "TheHive"*
+*Ref 8: Change Hostname to "TheHive"*
 
 <div style="display: flex; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/37167de3-6bde-4f48-8f92-ce3803bd0971" alt="Rename Target Machine" width="300" height="200">
@@ -108,7 +108,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br> <!-- Adds extra space between sections -->
 
-*Ref 13: Change RPC adress as well*
+*Ref 13: Change RPC address as well*
 
 <div style="display: flex; gap: 20px;">
   <img src="https://github.com/user-attachments/assets/fe083202-4a6d-403e-8115-f7f052b569b3" alt="Adding Inputs.conf Part 1" width="300" height="200">
@@ -133,14 +133,14 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br>
 
-*Ref 16: Run Elastic Search to manage Indeces*
+*Ref 16: Run Elastic Search to manage Indices*
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/user-attachments/assets/8a05a81f-7609-4fb2-93d2-fdda363b42a0" alt="Configuring Splunk and Sysmon" width="300" height="200">
 </div>
 <br><br>
 
-*Ref 17: Change Local Host IP address and remove comment for cluster to start Elastic*
+*Ref 17: Change Local Host IP address and remove a comment for the cluster to start Elastic*
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/user-attachments/assets/5d14377c-1b1f-47bf-99c2-e08e76a89494" alt="Static IP for Windows Server" width="300" height="200">
@@ -176,7 +176,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br>
 
-*Ref 22: Run TheHive through its public IP addressed followed by port 9000*
+*Ref 22: Run TheHive through its public IP address followed by port 9000*
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/user-attachments/assets/f8150e7e-8c2b-4f57-b411-7878f6a0174a" alt="Enabling RDP on Target Machine" width="300" height="200">
@@ -211,7 +211,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br>
 
-*Ref 27: Head over to Security Module to query events*
+*Ref 27: Head over to the Security Module to query events*
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/user-attachments/assets/29f1a10b-ee2f-4e74-b124-487539b0b999" alt="Event Check Based on Technique ID" width="300" height="200">
@@ -225,7 +225,7 @@ This project aims to build a SOC Automation Lab integrating Wazuh, The Hive, and
 </div>
 <br><br>
 
-*Ref 29: Add or Remove Exlusions and select Downloads Folder*
+*Ref 29: Add or Remove Exclusions and select Downloads Folder*
 
 <div style="display: flex; justify-content: center;">
   <img src="https://github.com/user-attachments/assets/29f1a10b-ee2f-4e74-b124-487539b0b999" alt="Event Check Based on Technique ID" width="300" height="200">
